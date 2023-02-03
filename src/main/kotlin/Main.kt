@@ -24,7 +24,7 @@ fun main() {
     printPascalsTriangle(triangle)
     println("Took ${elapsed / 1000000.0f} ms\n")
 
-    var elapsed = measureNanoTime {
+    elapsed = measureNanoTime {
         triangle = pascalD(rows)
     }
     printPascalsTriangle(triangle)
